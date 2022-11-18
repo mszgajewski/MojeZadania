@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="50dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_add"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fontPath="fonts/nunito_extra_bold.ttf"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Dodaj zadanie"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fontPath="fonts/nunito_light.ttf"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Szczegóły zadania"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:alpha="0.8"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fontPath="fonts/nunito_light.ttf"
+            android:layout_marginTop="30dp"
+            android:text="Tytuł"
+            android:layout_marginLeft="3dp"
+            tools:ignore="MissingPrefix" />
+
+        <EditText
+            android:id="@+id/addTaskTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            fontPath="fonts/nunito_light.ttf"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:background="@drawable/btn_border"
+            android:padding="10dp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fontPath="fonts/nunito_light.ttf"
+            android:layout_marginTop="30dp"
+            android:text="Opis Zadania"
+            android:layout_marginLeft="3dp"
+            tools:ignore="MissingPrefix" />
+
+        <EditText
+            android:id="@+id/addTaskDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            fontPath="fonts/nunito_light.ttf"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:background="@drawable/btn_border"
+            android:padding="10dp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fontPath="fonts/nunito_light.ttf"
+            android:layout_marginTop="30dp"
+            android:text="Data Zadania"
+            android:layout_marginLeft="3dp"
+            tools:ignore="MissingPrefix" />
+
+        <EditText
+            android:id="@+id/taskDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            fontPath="fonts/nunito_light.ttf"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:background="@drawable/btn_border"
+            android:padding="10dp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fontPath="fonts/nunito_light.ttf"
+            android:layout_marginTop="30dp"
+            android:text="Godzina Zadania"
+            android:layout_marginLeft="3dp"
+            tools:ignore="MissingPrefix" />
+
+        <EditText
+            android:id="@+id/taskTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            fontPath="fonts/nunito_light.ttf"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:background="@drawable/btn_border"
+            android:padding="10dp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fontPath="fonts/nunito_light.ttf"
+            android:layout_marginTop="30dp"
+            android:text="Dodaj wydarzenie"
+            android:layout_marginLeft="3dp"
+            tools:ignore="MissingPrefix" />
+
+        <EditText
+            android:id="@+id/taskEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            fontPath="fonts/nunito_light.ttf"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:background="@drawable/btn_border"
+            android:padding="10dp"
+            tools:ignore="MissingPrefix" />
+
+        <Button
+            android:id="@+id/addTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dodaj zadanie"
+            android:background="@drawable/btn_background"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="40dp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

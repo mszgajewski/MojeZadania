@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MojeZadania</string>
+    <string name="delete_confirmation">Potwierdź</string>
+    <string name="sureToDelete">Cze na pewno chcesz usunąć zadanie?</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="confirmation">Ukończono zadanie!</string>
+    <string name="sureToMarkAsCompleted">Czy na pewno chcesz oznaczyć jako ukończone</string>
+    <string name="congrats_task_successfully">Gratujacje! Zadanie zostało ukończone</string>
+</resources>
