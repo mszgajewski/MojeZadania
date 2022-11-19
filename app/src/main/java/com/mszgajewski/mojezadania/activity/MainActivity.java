@@ -96,7 +96,7 @@ public class MainActivity extends BaseActivity implements CreateTaskBottomSheetF
         }
 
         GetSavedTasks savedTasks = new GetSavedTasks();
-        savedTasks.onPostExecute();
+        savedTasks.execute();
     }
 
     public void refresh(){
