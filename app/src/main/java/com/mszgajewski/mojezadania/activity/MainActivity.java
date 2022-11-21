@@ -28,7 +28,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MainActivity extends BaseActivity implements CreateTaskBottomSheetFragment {
+public class MainActivity extends BaseActivity implements CreateTaskBottomSheetFragment.setRefreshListener {
 
     @BindView(R.id.taskRecycler)
     RecyclerView taskRecycler;
@@ -102,4 +102,5 @@ public class MainActivity extends BaseActivity implements CreateTaskBottomSheetF
     public void refresh(){
         getSavedTasks();
     }
+
 }

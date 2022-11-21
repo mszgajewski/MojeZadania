@@ -13,19 +13,16 @@
         android:theme="@style/Theme.MojeZadania"
         tools:targetApi="31">
         <receiver
-            android:name=".AlarmBroadcastReceiver"
-            android:enabled="true"
-            android:exported="true"></receiver>
+            android:name=".broadcastReceiver.AlarmBroadcastReceiver"
+            android:enabled="false"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+            </intent-filter>
+        </receiver>
 
         <activity
-            android:name=".BaseActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".AlarmActivity"
+            android:name=".activity.AlarmActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -44,6 +41,10 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+        <service android:name=".broadcastReceiver.AlarmService"
+            android:enabled="true"
+            android:exported="true" />
     </application>
 
 </manifest>

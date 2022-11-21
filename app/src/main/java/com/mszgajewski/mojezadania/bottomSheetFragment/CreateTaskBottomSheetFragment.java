@@ -72,7 +72,6 @@ public class CreateTaskBottomSheetFragment extends BottomSheetDialogFragment {
 
         @Override
         public void onSlide(@NonNull View bottomSheet, float slideOffset) {
-
         }
     };
 
@@ -284,7 +283,6 @@ public class CreateTaskBottomSheetFragment extends BottomSheetDialogFragment {
         taskEvent.setText(task.getEvent());
 
     }
-
 
     public interface setRefreshListener {
          void refresh();
