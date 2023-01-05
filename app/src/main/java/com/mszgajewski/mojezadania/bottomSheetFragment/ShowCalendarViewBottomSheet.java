@@ -30,7 +30,6 @@ import butterknife.Unbinder;
 public class ShowCalendarViewBottomSheet extends BottomSheetDialogFragment {
 
     Unbinder unbinder;
-    MainActivity activity;
     @BindView(R.id.back)
     ImageView back;
     @BindView(R.id.calendarView)

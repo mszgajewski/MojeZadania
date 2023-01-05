@@ -13,7 +13,7 @@ import com.mszgajewski.mojezadania.model.Task;
 public abstract class AppDatabase extends RoomDatabase {
 
     public abstract OnDataBaseAction dataBaseAction();
-    private  static  volatile AppDatabase appDatabase;
+    //private  static  volatile AppDatabase appDatabase;
 
     @NonNull
     @Override

@@ -1,11 +1,7 @@
 package com.mszgajewski.mojezadania.database;
 
 import android.content.Context;
-import android.graphics.Color;
-
 import androidx.room.Room;
-
-import com.mszgajewski.mojezadania.activity.MainActivity;
 
 public class DatabaseClient {
 
